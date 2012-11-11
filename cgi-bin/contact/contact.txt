@@ -1,0 +1,18 @@
+To: nick@ikofoto.com
+Subject:Ikofoto Inquiry [inquiryType]
+
+[nameFirst] [nameLast]
+[email]
+[PhoneCountryCode] [PhoneAreaCode] [PhonePrefix] [PhoneSuffix]
+
+[address1]
+[address2]
+[city], [state]
+[country]
+
+Interested in: [inquiryType]
+
+Open text:
+[describeFurther]
+
+Where heard of ikofoto: [whereHeard]

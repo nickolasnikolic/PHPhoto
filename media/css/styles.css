@@ -1,0 +1,259 @@
+/*************
+** DIRECT MARKUP STYLES
+*************/
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #705625;
+	background-image: url(../images/logoStamp.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	min-height: 35em;
+}
+
+div{}
+
+p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	padding: 0px;
+	width: 52em;
+}
+
+h1, h2, h3, h4{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #705625;
+}
+
+h1{
+	font-size: 14px;
+	margin-left: -0.25em;
+}
+
+h2{ 
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 0.5em;
+}
+
+h3{
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 1em;
+}
+
+h4{
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 2em;
+}
+
+ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	list-style: none inside;
+}
+
+ol li{
+	list-style: decimal inside;
+	margin-top: 1em;
+	width: 35em;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #705625;
+}
+
+img{
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+em{
+	font-style: italic;
+}
+
+strong{
+	font-weight: bolder;
+}
+span{}
+
+form{
+	font-size: 9px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	border: none;
+}
+
+input, textarea, option{
+	font-size: 9px;
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: lighter;
+	color: #966;
+	background-color: #fc6;
+	border: 1px solid #000;
+}
+
+option{
+	font-size: 12px;
+}
+
+input:focus,textarea:focus, option:focus{
+	background-color:#fff;
+	border: 1px dotted #ccc;
+}
+
+a:hover{
+	text-decoration: overline;
+	font-weight: bold;	
+}
+
+/*************
+** IDS
+*************/
+#header{
+	width: 52em;
+}
+
+#container{
+	/*position: relative;
+	left: 50px;
+	width: 100%;*/
+	height: auto;
+}
+
+#logo{
+	background-color: white;
+	padding: 5px;
+	height: 50px;
+}
+
+#content{
+	/* [disabled]width: 612px; */
+	height: 100%;
+	padding: 0px 1em 1em 1em;
+}
+
+#logoImg{}
+#navBar{
+	background-color: #fc6;
+}
+
+#navBar a{
+	margin-right: 5em;
+}
+
+#nav1{}
+#nav2{}
+#nav3{}
+#nav4{}
+
+#content{}
+
+
+#footer{
+	color: #705625;
+	background-color: #fc6;
+	width: 630px;
+	height: 1.2em;
+	padding: 2px 8px;
+	text-align: center;
+	clear: both;
+}
+
+#contactSubmit{
+	font-weight: bold;
+	font-size: 12px;
+	color: #705625;
+	background-color: #f9f4d6;
+	/* float: right; */
+}
+
+#formSubmit{
+	border: none;
+}
+
+#extraOffer{}
+#extraPromo{}
+
+/*************
+** QDIG AND PORTFOLIO STYLES
+*************/
+#qdig{}
+#portfolio{}
+
+#portfolio td{}
+#portfolio tr{}
+#portfolio span{}
+#portfolio table{}
+#portfolio div{}
+
+#twitterTweet{}
+#facebookLike{}
+
+/*************
+** CLASSES
+*************/
+
+.content{}
+.brandImage{}
+.subheadingSynopsis{}
+.navBar{}
+
+.navContainer{
+	padding: 0px;
+	margin: 0px;
+}
+
+.navLink{
+	display: inline;
+	font-stretch: condensed;
+	font-weight: bold;
+}
+
+.formDiv{
+	border: thin solid #f9f4d6;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+.shortTextField{}
+
+.formLabel{}
+
+.contactLink{}
+.portfolioLink{}
+.projectHeader {
+	color: #705625;
+}
+
+.services{}
+
+.extraOffer{}
+.credits {
+	float: left;
+	width: 240px;
+	padding: 1em;
+}
+.credits p{
+	display: inline;
+}
+.credits h1 {
+	color: #705625;
+}
+
+
+#creditContainer {
+	width: 640px;
+	clear: both;
+}
